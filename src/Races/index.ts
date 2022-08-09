@@ -1,6 +1,6 @@
 import Dwarf from './Dwarf';
 import Elf from './Elf';
-import Hanlfling from './Halfling';
+import Halfling from './Halfling';
 import Orc from './Orc';
 import Race from './Race';
 
@@ -9,5 +9,5 @@ export {
   Elf,
   Dwarf,
   Orc,
-  Hanlfling,
+  Halfling,
 };
