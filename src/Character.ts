@@ -52,7 +52,7 @@ export default class Character implements Fighter {
     return JSON.parse(JSON.stringify(this._energy)); 
   }
   
-  attack(enemy: Fighter): void {
+  attack(enemy: GeneralFighter): void {
     enemy.receiveDamage(this.strength);
   }
 
