@@ -83,3 +83,9 @@ export default class Character implements Fighter {
     return this.lifePoints;
   }
 }
+
+export function playerLvlUp(player: Character, amount: number): void {
+  for (let index = 0; index < amount; index += 1) {
+    player.levelUp();
+  }
+}
